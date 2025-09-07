@@ -1,0 +1,188 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/*Top of the page*/
+.intern{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+/*Top of the page*/
+
+section h1 {
+    text-align: center;
+    /*background-color: pink;*/
+}
+
+
+.gray-line-1 {
+    min-height: 1px;
+    background-color: rgb(252, 250, 249);
+    
+}
+
+.gray-line-2 {
+    min-height: 3px;
+    /*background: linear-gradient(to right, rgba(255, 126, 95, 0.8), rgba(254, 180, 123, 0.8));*/
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Effet de relief */
+}
+
+
+.title {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.special-margin {
+    margin-top: 100px;
+    font-style: italic;
+}
+.titre-principal {
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 1vw;
+    
+}
+
+.sous-titre {
+    font-family: fantasy;
+    font-weight: 200;
+    font-size: 40px;
+}
+
+.themes {
+    text-align : center;
+}
+
+/*Navigation bar*/
+
+.nav-links {
+    display: flex;
+    min-height: 2vh;
+    justify-content: space-between;
+    padding: 5px 30px;
+    list-style: none;
+    /*background-color: green;*/
+
+}
+
+.nav-links li a:hover {
+    text-decoration: underline; /* Add an underline to the hover */
+    color: #f39c12; /* Change the color when hoverring */
+}
+
+.nav-options {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-menu {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*Page text*/
+.presentation-text{
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 50px;
+}
+
+/* section title */
+.black-line-3 {
+    min-height: 1px;
+    background-color: rgb(187, 187, 187);
+    margin: 1px;
+}
+
+.article-section-name {
+    color: black;
+}
+
+
+/*Projects section*/
+
+.article {
+    display: flex; /* Active la grille */
+    flex-wrap: wrap; /*Permet un retour à la ligne*/
+    min-height: 50vh;
+    padding: 5px;
+    margin-bottom: 50px;
+
+}
+
+.article-box, .description-box {
+    display: block; /* Permet de mieux contrôler l'affichage */
+    flex: 1; /* Chaque élément prend une place égale */
+    max-width: 45%; /* Pour éviter que la description soit trop large */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.article-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.description-box {
+    align-content: center;
+}
+
+.youtube-link{
+    font-weight: 500;
+}
+.article-description1 {
+    word-wrap: break-word;
+    white-space: normal;
+    overflow-wrap: break-word;
+}
+
+.article-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+ 
+
+.article-name {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}
+
+
+/*Contact means*/
+
+.contacts {
+    width: 100%;
+}
+
+.contact-title {
+    text-align: center;
+    color: gray;
+}
+
+.contact-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-name {
+    color: gray;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-box {
+    text-decoration: none;
+    width: 20px;
+}

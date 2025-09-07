@@ -1,0 +1,211 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /*background: linear-gradient(to right, rgba(95, 255, 236, 0.8), rgba(123, 127, 254, 0.8));*/
+
+}
+
+/*Règles pour les liens de la page*/
+a {
+    color: black; /* Remplace 'black' par la couleur souhaitée */
+    text-decoration: none; /* Supprime le soulignement */
+}
+
+a:visited {
+    color: black; /* Empêche le violet après clic */
+}
+
+a:hover {
+    color: red; /* Couleur au survol, change selon ton design */
+}
+
+a:active {
+    color: darkred; /* Couleur lors du clic */
+}
+
+.intern{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+/*Top of the page*/
+
+section h1 {
+    text-align: center;
+    /*background-color: pink;*/
+}
+
+.black-line-1 {
+    min-height: 5px;
+    background-color: black;
+    margin: 5px;
+}
+
+.black-line-2 {
+    min-height: 1px;
+    background-color: rgb(213, 207, 207);
+}
+.gray-line-1 {
+    min-height: 1px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.955); /* Effet de relief */
+}
+
+.title {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.special-margin {
+    margin-top: 100px;
+    font-style: italic;
+}
+.titre-principal {
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 5vw;
+    
+}
+
+.themes {
+    text-align : center;
+}
+
+/*Navigation bar*/
+
+.nav-links {
+    display: flex;
+    min-height: 2vh;
+    justify-content: space-between;
+    padding: 5px 30px;
+    list-style: none;
+    /*background-color: green;*/
+
+}
+
+.nav-links li a:hover {
+    text-decoration: underline; /* Add an underline to the hover */
+    color: #f39c12; /* Change the color when hoverring */
+}
+
+.nav-options {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-menu {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.presentation-text{
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+     
+}
+
+
+.black-line-3 {
+    min-height: 1px;
+    background-color: rgb(213, 207, 207);
+    margin: 1px;
+}
+/*Article section*/
+
+
+.article {
+    display: grid; /* Active la grille */
+    grid-template-columns: repeat(3, 512px); /* 3 colonnes de taille égale */
+    grid-template-rows: repeat(1, 512px); /* 2 lignes s'adaptant au contenu */
+    min-height: 50vh;
+    padding: 5px;
+    /*background-color: rgb(247, 210, 216);*/
+    place-content: top;
+    justify-content: center;
+    margin-bottom: 150px;
+
+}
+.article-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-color: yellow;*/
+    position: relative;
+    
+}
+
+.article-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    /*background-color: red;*/
+}
+ .article1{
+    margin-bottom: 10px;
+    /*background-color: rgb(0, 145, 255);*/
+    border-radius: 20px;
+    grid-column: 1;
+    grid-row: 1;
+    
+} 
+
+.article2{
+    margin-bottom: 10px;
+    /*background-color: rgb(0, 145, 255);*/
+    border-radius: 20px;
+    grid-column: 2;
+    grid-row: 1;
+    
+}
+
+.article3{
+    margin-bottom: 10px;
+    /*background-color: rgb(0, 145, 255);*/
+    border-radius: 20px;
+    grid-column: 3;
+    grid-row: 1;
+    
+}
+
+.article-name {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+/*Contact means*/
+
+.contacts {
+    width: 100%;
+}
+
+.contact-title {
+    text-align: center;
+    color: gray;
+}
+
+.contact-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-name {
+    color: gray;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-box {
+    text-decoration: none;
+    width: 20px;
+}
